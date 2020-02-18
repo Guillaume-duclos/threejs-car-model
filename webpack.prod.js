@@ -35,9 +35,9 @@ let config = merge(common, {
     new MiniCssExtractPlugin({
       filename: 'styles/[name].[hash:8].css'
     }),
-    new CleanWebpackPlugin(
+    /*new CleanWebpackPlugin(
       pathsToClean = 'build'
-    )
+    )*/
   ]
 });
 
