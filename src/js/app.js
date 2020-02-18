@@ -62,7 +62,7 @@ scene.add(pointLight4);
 // LTF Loader
 var loader = new THREE.GLTFLoader();
 
-loader.load('../assets/car/scene.gltf', function(gltf) {
+loader.load('threejs-car-model/assets/car/scene.gltf', function(gltf) {
   var car = gltf.scene.children[0];
   car.scale.set(.5, .5, .5);
   scene.add(gltf.scene);
